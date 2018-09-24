@@ -1,0 +1,1 @@
+# mirc-auto-typer
