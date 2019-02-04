@@ -109,7 +109,7 @@ def sendkeys(keys,send_return):
 targetwindow = "mIRC"
 
 #START AUTO-TYPING
-def start_atack():
+def doTyping():
 	the_text = open("text.txt").read().split("\n")
 	
 	text_index = 0
@@ -138,6 +138,6 @@ while True:
 	windowtext = window.GetWindowText()
 	
 	if windowtext.__contains__(targetwindow):
-		start_atack()
+		doTyping()
 
 
