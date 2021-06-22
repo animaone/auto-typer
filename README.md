@@ -1,3 +1,3 @@
 # mirc-auto-typer
 
-Auto-typer for mirc written in python
+Auto-typer for windows written in python
